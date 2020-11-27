@@ -10,7 +10,7 @@ import Header from './components/header/header.component';
 
 // Pages
 import ShopPage from './pages/shop/shop.component';
-import HatsPage from './pages/hatspage/hatspage.component';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
 
 // functional component
@@ -21,7 +21,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/shop' component={ShopPage} />
-        <Route path='/shop/hats' component={HatsPage} />
+        <Route path='/signin' component={SignInAndSignUpPage} />
       </Switch>
     </div>
   );
