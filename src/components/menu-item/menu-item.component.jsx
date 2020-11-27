@@ -26,4 +26,5 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
 
 export default withRouter(MenuItem);
 
-// withRouter is a function which is used to create modified component having other props
+// withRouter is a Higher order function which it takes other component as an arguement
+// and transform into another component and returns that transformed component.
