@@ -1,5 +1,6 @@
 import React from 'react';
 
+// components
 import CollectionItem from '../collection-item/collection-item.component';
 
 //Stylesheet

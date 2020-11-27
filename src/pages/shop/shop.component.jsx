@@ -1,4 +1,6 @@
 import React from 'react';
+
+// Data file
 import SHOP_DATA from './shop.data.js';
 
 // components
@@ -10,7 +12,7 @@ class ShopPage extends React.Component {
 
     this.state = {
       collections: SHOP_DATA
-    }
+    };
   }
 
   render() {
