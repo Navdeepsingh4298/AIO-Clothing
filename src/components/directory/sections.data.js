@@ -4,7 +4,7 @@ const SECTIONS_DATA = [
     {
         title: 'hats',
         // imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-        imageUrl: 'images/hats.png', // local file in public/images/
+        imageUrl: '../../assets/images/hats.png', // local file in public/images/
         id: 1,
         linkUrl: 'shop/hats'
 
@@ -12,7 +12,7 @@ const SECTIONS_DATA = [
     {
         title: 'jackets',
         // imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-        imageUrl: 'images/jackets.png', // local file in public/images/
+        imageUrl: '../../assets/images/jackets.png', // local file in public/images/
         id: 2,
         linkUrl: 'shop/jackets'
     },
