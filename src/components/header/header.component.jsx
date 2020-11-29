@@ -12,7 +12,7 @@ import { connect } from 'react-redux';
 import { auth } from '../../firebase/firebase.utils';
 
 // Logo
-import { ReactComponent as Logo } from '../../assets/crown.svg';
+import { ReactComponent as Logo } from '../../assets/favicon.svg';
 
 // Stylesheet
 import './header.styles.scss';
