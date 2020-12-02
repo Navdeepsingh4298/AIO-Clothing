@@ -14,6 +14,7 @@ import StripeCheckoutButton from '../../components/stripe-button/stripe-button.c
 // styled component
 import {
   CheckoutPageContainer,
+  CheckoutTitle,
   CheckoutHeaderContainer,
   HeaderBlockContainer,
   TotalContainer,
@@ -22,6 +23,7 @@ import {
 
 const CheckoutPage = ({ cartItems, total }) => (
   <CheckoutPageContainer>
+    <CheckoutTitle>Check Out</CheckoutTitle>
     <CheckoutHeaderContainer>
       <HeaderBlockContainer>
         <span>Product</span>

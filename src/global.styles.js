@@ -7,6 +7,8 @@ export const GlobalStyle = createGlobalStyle`
 
   @media screen and (max-width: 800px) {
     padding: 10px;
+    width: 100%;
+    height: 100%;
   }
 }
 
