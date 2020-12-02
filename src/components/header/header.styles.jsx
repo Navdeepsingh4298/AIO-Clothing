@@ -11,9 +11,11 @@ export const HeaderContainer = styled.div`
   height: 70px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
   border-bottom: 1px solid black;
+  border-top: 1.5px solid black;
 
   @media screen and (max-width: 800px) {
     height: 60px;
@@ -24,12 +26,7 @@ export const HeaderContainer = styled.div`
 
 export const BrandContainer = styled(Link)`
   ${centerdStyles}
-  border: 1px dashed black;
-  border-radius: 50px;
-
-  @media screen and (max-width: 800px){
-    border-radius: 30px;
-  }
+  height: 80%;
 `;
 
 export const LogoContainer = styled.div`

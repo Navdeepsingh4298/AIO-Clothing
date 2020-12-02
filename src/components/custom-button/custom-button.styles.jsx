@@ -48,7 +48,7 @@ export const CustomButtonContainer = styled.div`
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 0 35px 0 35px;
+  padding: 0 auto; 
   font-size: 15px;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
@@ -57,4 +57,7 @@ export const CustomButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   ${getButtonStyles}
+  @media screen and (max-width: 800px){
+    width: 30%;
+  }
 `;
