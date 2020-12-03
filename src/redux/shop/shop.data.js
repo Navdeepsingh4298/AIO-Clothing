@@ -284,3 +284,5 @@ const SHOP_DATA = {
 };
 
 export default SHOP_DATA;
+
+//Now this file is not required, because all shop data has been transfered to Database (firebase/firestore)
