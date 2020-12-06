@@ -3,14 +3,16 @@ import styled from 'styled-components';
 export const FooterContainer = styled.div`
   height: 70px;
   width: 100%;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid black;
-  border-top: 1.5px solid black;
+  background: #222831;
+  color: #eee;
 
   @media screen and (max-width: 800px) {
     height: 40px;
+    margin-top: 2rem;
   }
 `;
 
