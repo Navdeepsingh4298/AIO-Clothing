@@ -27,7 +27,7 @@ const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
     <BrandContainer to="/">
       <LogoContainer>
-        <Logo />
+        <Logo className='logo' />
       </LogoContainer>
       <Heading>AIO Clothing</Heading>
     </BrandContainer>
@@ -44,7 +44,9 @@ const Header = ({ currentUser, hidden }) => (
           :
           (<OptionLink to='/signin'>SIGN IN</OptionLink>)
       }
-      <CartIcon />
+      {
+        currentUser && (<CartIcon />)
+      }
     </OptionsContainer>
     {
       hidden ? null : <CartDropdown />
