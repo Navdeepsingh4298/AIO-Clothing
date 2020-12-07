@@ -20,6 +20,7 @@ import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import CheckoutPage from './pages/checkout/checkout.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import ErrorPage from './pages/error-page/error-page.component';
 
 // Firebase
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -59,6 +60,7 @@ class App extends React.Component {
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/checkout' component={CheckoutPage} />
           <Route path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SignInAndSignUpPage />)} />
+          <Route component={ErrorPage} />
         </Switch>
         <Footer />
       </div>
