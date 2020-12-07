@@ -14,6 +14,8 @@ import {
   ButtonsBarContainer
 } from './sign-in.styles';
 
+// google logo
+import { ReactComponent as Glogo } from '../../assets/google-filled-border-logo.svg';
 
 // class component
 class SignIn extends React.Component {
@@ -67,7 +69,7 @@ class SignIn extends React.Component {
           <ButtonsBarContainer>
             <CustomButton type="submit">Sign In</CustomButton>
             <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-              Sign In with Google
+              <span>Sign In with</span> <Glogo className='google-logo' />
             </CustomButton>
           </ButtonsBarContainer>
         </form>

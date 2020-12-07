@@ -43,12 +43,12 @@ const getButtonStyles = props => {
 }
 
 export const CustomButtonContainer = styled.div`
-  min-width: 165px;
+  min-width: 180px;
   width: auto;
   height: 50px;
   letter-spacing: 0.5px;
   line-height: 50px;
-  padding: 0 auto; 
+  padding: 0 10px; 
   font-size: 15px;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
@@ -56,8 +56,17 @@ export const CustomButtonContainer = styled.div`
   cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: center;
+  border-radius: 23%;
   ${getButtonStyles}
   @media screen and (max-width: 800px){
-    width: 30%;
+    min-width: 40%;
+    padding: 0 10px; 
+  }
+
+  & .google-logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
   }
 `;
