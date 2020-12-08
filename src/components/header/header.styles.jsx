@@ -55,6 +55,7 @@ export const LogoContainer = styled.div`
 export const Heading = styled.h2`
   font-size: 2.8rem;
   padding-right: 20px;
+  letter-spacing: 0.5px;
 
   @media screen and (max-width: 800px){
     font-size: 1rem;

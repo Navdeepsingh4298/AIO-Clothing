@@ -11,7 +11,7 @@ export const CollectionPreviewContainer = styled.div`
 
 export const TitleContainer = styled.h1`
   font-size: 2rem;
-  margin: 0 auto 25px;
+  margin: 0 auto 20px;
   cursor: pointer;
   &:hover {
     color: grey;

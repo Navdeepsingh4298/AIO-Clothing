@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // cutom button
 import CustomButton from '../../components/custom-button/custom-button.component';
@@ -12,14 +13,16 @@ import {
 
 const ErrorPage = () => (
   <ErrorPageContainer>
-    <ErrorPageTitle>Page Not Found</ErrorPageTitle>
+    <ErrorPageTitle>Page Not Found <br /> Error 404</ErrorPageTitle>
     <ErrorPageContent>
       The Page you're looking for is not Found <br />
       Please try again later...
     </ErrorPageContent>
-    <CustomButton className='home-btn'>
-      Go to Home Page
+    <Link to='/'>
+      <CustomButton className='home-btn'>
+        Go to Home Page
     </CustomButton>
+    </Link>
   </ErrorPageContainer>
 );
 
