@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
 export const ErrorPageContainer = styled.div`
-  height: 60vh;
-  width: 100vw;
-  margin: 2rem auto 5rem;
-  padding: 2rem 1rem;
+  height: 75vh;
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
   background-color: #eee;
+  display: flex;
+  justigy-content: center;
+  align-items: center;
+  flex-direction: column;
  
- & .home-btn{
-   width: 5rem;
- }
+  & .home-btn{
+    width: 200px;
+  }
 `;
 
 export const ErrorPageTitle = styled.h2`

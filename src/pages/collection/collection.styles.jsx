@@ -6,10 +6,10 @@ export const CollectionPageContainer = styled.div`
 `;
 
 export const CollectionTitle = styled.h2`
-  font-size: 35px;
+  font-size: 2rem;
   margin: 0 auto 10px;
   @media screen and (max-width: 800px){
-    font-size: 20px;
+    font-size: 25px;
   }
 `;
 
@@ -22,6 +22,6 @@ export const CollectionItemsContainer = styled.div`
   @media screen and (max-width: 800px){
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
   }
 `;
